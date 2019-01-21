@@ -1,0 +1,449 @@
+/* de facon general */
+
+
+body{
+    
+}
+
+hr {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    border: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+  }
+
+.h6{
+    color: #e2494b;
+}
+
+
+
+/* debut pour la maquette */
+
+
+.blockquote{
+    text-align: center;
+    font-weight: bold;
+    font-size: 1rem;
+}
+.navbar{
+    padding-right: 0;
+    padding-left: 0;
+}
+.navbar-brand{
+    font-size: 2rem;
+    line-height: 1.1;
+    
+    /* border:solid indianred 2px; */
+}
+.navbar-brand-small{
+display: block;
+font-size: 12px;
+}
+.bg-color{
+    background:#FFF;
+}
+
+.navbar-nav .nav-link{
+    /* border:solid green 1px; */
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+    padding-top: 20px ;
+    padding-bottom: 20px ;
+    background:#e2494b;
+    color:white !important;
+    font-weight: 400 !important;
+
+}
+.navbar-nav .nav-link{
+    border-radius: 5px;
+    
+}
+
+.nav-item .nav-link:hover{
+    color:rgba(255, 255, 255, 0.6) !important;
+    text-decoration: underline;
+}
+
+
+
+.first-line{
+    margin-top:40px;
+}
+
+.silder{
+    /* border:solid red 1px; */
+    width: 100%;
+    padding-bottom: 38px;
+   
+}
+.carousel-indicators li {
+   
+    width: 10px;
+    height: 10px;
+    
+    top: 50px;
+    border-radius: 50px !important;
+    background:#cecece;
+    /* border: solid 5px ; */
+}
+.carousel-indicators .active {
+     background-color: red; 
+    border: solid 1px #353535;
+}
+
+/*********************************************
+*FIN DE LA NAVAGATION 
+*DEBUT DE FACON GENERAL POUR LES TITRE
+********************************************/
+
+.sub-title{
+    display: inline-block;
+    color:white;
+    background-color: #e2494b;
+    width:auto;
+    height: auto;
+    padding: 4px 8px;
+    border-radius: 10px;
+    
+}
+.line{
+    /* margin-top: 1rem;
+    margin-bottom: 1rem; */
+    border: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.3);
+    position: relative;
+    top: 28px;
+    z-index: -1;
+
+}
+.service-title, .player-title ,.work-title{
+    text-align: center;
+    margin-bottom: 2rem;
+   
+}
+
+
+
+
+
+/*********************************************
+*FIN DE FACON GENERAL POUR LES TITRE
+*DEBUT DE LA PARTIE SERVICE
+********************************************/
+
+
+.service{
+    /* border:solid blue 1px; */
+
+}
+.service-lg{
+    margin-bottom: 1rem;
+    /* border:solid green 1px; */
+}
+.serv-head{
+    display: flex;
+}
+
+.serv-head .service-img{
+    flex:none;
+    width:33px;
+    height: 33px;
+}
+.serv-head .service-sub-title{
+   padding-left: 20px;
+   
+   
+}
+
+.service .service-text{
+    padding-top: 7px;
+    font-size: 1rem;
+}
+.serv-link{
+    display:block;
+    color: #e2494b;
+    margin-top: 5px;
+}
+.serv-link:hover{
+    cursor: pointer;
+    color: #f00a0e;
+}
+
+
+
+/*********************************************
+*FIN DE LA PARTIE SERVICE
+*DEBUT DE LA PARTIE PLAYERS
+********************************************/
+.player-lg{
+    display: flex;
+    /* align-self: auto; */
+    align-items: flex-start;
+    font-size: 13px;
+    
+}
+.img-play{
+    flex:none;
+    width: 50%;
+}
+.player-lg .player-description{
+    /* float: left; */
+    /* border:solid indigo 3px; */
+    padding-left:6px;
+
+}
+.player-description span{
+    font-weight: bold;
+}
+.profil-link{
+    display:block;
+    color: #e2494b;
+    margin-top: 5px;
+}
+.profil-link:hover{
+    cursor: pointer;
+    color: #f00a0e;
+}
+
+
+/*********************************************
+*FIN DE LA PARTIE PLYERS
+*DEBUT DE LA PARTIE WORKS
+********************************************/
+
+.work-img{
+    height: auto;
+    width: 100%;
+    margin-bottom:3px;
+}
+/*********************************************
+*FIN DE LA PARTIE works
+*DEBUT DE LA PARTIE footer
+********************************************/
+
+.footer{
+    background:#e2e2e2;
+    margin-top:25px;
+    padding-top:15px;
+}
+.footer-sub-title{
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+}
+.block1-content{
+    /* border:solid 1px blue; */
+    display: flex;
+}
+.img-block1{
+    flex:none;
+    width:95px;
+    height: 95px;
+    border:solid 2px transparent;
+}
+.block1-text-1{
+    /* border:solid 1px yellow; */
+    padding-left: 7px;
+}
+.block1-text, .block2-text{
+    font-size: 0.9rem;
+    padding-top: 12px;
+}
+.btn-footer{
+    background: #f00a0e;
+    color:white;
+    font-weight: 500;
+}
+.btn-footer:hover{
+    cursor: pointer;
+    background: #f10004;
+    color:rgb(255, 255, 255);
+
+    font-weight: 900;
+}
+.copyrigth{
+    font-size: 12px;
+    padding-top:15px;
+    padding-bottom:5px;
+}
+
+
+/*********************************************
+*FIN DE LA PARTIE footer
+*DEBUT DE LA PARTIE responsive
+********************************************/
+
+@media (min-width: 100px) {
+   
+  }
+
+  /* @media (min-width: 576px) {
+    .navbar-expand-sm {
+      -ms-flex-flow: row nowrap;
+      flex-flow: row nowrap;
+      -ms-flex-pack: start;
+      justify-content: flex-start;
+      border: solid red 1px;
+    }
+    .navbar-expand-sm .navbar-nav {
+      -ms-flex-direction: row;
+      flex-direction: row;
+      margin-left: auto;
+      
+      border:solid blue 2px;
+
+    }
+    .navbar-expand-sm .navbar-nav .dropdown-menu {
+      position: absolute;
+    }
+    .navbar-expand-sm .navbar-nav .nav-link {
+      padding-right: 0.5rem;
+      padding-left: 0.5rem;
+    }
+    .navbar-expand-sm > .container,
+    .navbar-expand-sm > .container-fluid {
+      -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+    }
+    .navbar-expand-sm .navbar-collapse {
+      display: -ms-flexbox !important;
+      display: flex !important;
+      -ms-flex-preferred-size: auto;
+      flex-basis: auto;
+    }
+    .navbar-expand-sm .navbar-toggler {
+      display: none;
+    }
+  } */
+
+
+
+  
+@media (min-width: 576px) {
+    .player-lg{
+        display: unset;
+       
+    }
+
+    .img-play{
+        display: block;
+        margin: 2px auto;
+        width: 100%;
+    }
+    .copyrigth-text{
+        display:block;
+        text-align: right;
+    }
+
+    .blockquote{
+        text-align: center;
+        font-weight: bold;
+        font-size: 1.2rem;
+        padding:25px 3px;
+    }
+
+
+  }
+  
+@media (min-width: 576px) and (max-width: 768px) {
+    
+ 
+    .footer-block1,.footer-block2 ,.footer-block3{
+
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+        
+        position: relative;
+        width: 100%;
+        min-height: 1px;
+        padding-right: 15px;
+        padding-left: 15px;
+        /* border:solid 3px green; */
+    }
+
+
+  }
+  
+  @media (min-width: 768px)and (max-width: 992px) {
+
+    .footer-block2{
+        margin-left: auto !important;
+        -ms-flex: 0 0 41.666667%;
+        flex: 0 0 41.666667%;
+        max-width: 41.666667%;
+        /* -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%; */
+    }
+
+    .footer-block3{
+
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+        
+        position: relative;
+        width: 100%;
+        min-height: 1px;
+        padding-right: 15px;
+        padding-left: 15px;
+        /* border:solid 3px green; */
+    }
+ 
+  }
+  
+  @media (min-width: 992px) {
+      /* .play-line{
+         
+          border:solid 4px royalblue;
+        
+      } */
+      .play-line{
+        display: flex;
+        flex-wrap: nowrap;
+        
+        /* position: static; */
+
+        -ms-flex: auto;
+        flex:auto;
+        
+        
+    }
+    .play-line .col-sm-4 {
+        /* -ms-flex: none none none;
+        flex: none none none; */
+        flex: unset
+        /* max-width: 33.333333%; */
+      } 
+
+      /******************
+pour  la navigation
+      *******/
+      /* .navbar-expand-lg {
+      
+        border: solid red 1px;
+      } */
+
+      .navbar-expand-lg .navbar-nav {
+        -ms-flex-direction: row;
+        flex-direction: row;
+        margin-left: auto;
+      }
+
+ 
+  }
+  
+  @media (min-width: 1200px) {
+   
+    /* .img-play{
+        display: block;
+        margin: 2px auto;
+        width: 100%;
+    } */
+    .blockquote{
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+  }
+  

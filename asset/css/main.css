@@ -1,0 +1,281 @@
+/* De facon generale*/
+a{
+    color: #c4c4c4;
+
+}
+main a{
+    color: #ff9900;
+}
+main a:hover{
+    color: blue;
+}
+img{
+    width: auto;
+    height: auto;
+}
+.container{
+    /* border:solid 2px red; */
+}
+
+/* les stylisation fidele a la maquette */
+.header-bg-black{
+ background:#2d2928;
+}
+
+.head-first{
+ /*  */ 
+}
+
+.bg-black-link{
+text-align: center;
+padding: 10px;
+}
+.bg-black-link a{
+display: inline-block;
+line-height: 1.3;
+width: auto;
+height: auto;
+padding: 0px 10px;
+border-right:1px solid #c4c4c4 ;
+
+}
+
+.bg-black-link a:last-child{
+    border-right: none;
+}
+.bg-black-link a:hover{
+    color: #ff9900;
+    text-decoration: none;
+    background: #4d4b4b;
+}
+.head-form{
+
+    display:none;
+}
+.website-logo{
+    margin:5px auto;
+    padding: 10px 0;
+}
+.logo{
+    line-height: 1;
+    text-align: center;
+    padding: 10px;
+   
+}
+.logo strong{
+    display: block;
+    font-size: 36px;
+   
+
+}
+.logo small{
+    display: block;
+    font-size: 12px;
+    
+
+}
+
+.banier img{
+    width: 100%;
+}
+.navbar-color{
+
+} 
+.bg-nav{
+    
+    border-top:double 3px gray;
+    border-bottom:double 3px gray;
+    margin: 5px 0;
+}
+.nav-item .nav-link{
+    color: #c4c4c4 ;
+    border-right: solid 1px #c4c4c4;
+}
+.nav-item .nav-last{
+    
+    border-right: none;
+}
+.nav-item .nav-link:hover{
+    color: #ff9900 ;
+}
+
+
+/* fin de la navigation */
+/* pour la partie intro*/
+.intro-text{
+ 
+ padding-top:10px;
+ padding-bottom:6px;
+
+}
+.intro-text h1{
+    font-size: 1.8rem;
+}
+
+.section{
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    margin-top:15px;
+    /* padding-top:15px; */
+    padding-bottom:10px;
+}
+.section-content{
+    /* border:solid 1px red; */
+    padding-top:15px;
+}
+.section-content .text{
+    /* border:solid 1px red; */
+    padding-top:15px;
+}
+.section-content .date{
+    /* border:solid 1px red; */
+    display: block;
+    width: auto;
+    height: auto;
+    margin-top: 14px;
+    font-size: 12px;
+    
+}
+.section-content img{
+    width: 100%;
+}
+.article{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-size: 12px;
+}
+
+.article-text{
+    color:#ff9900;
+}
+
+.footer{
+    background: #232323;
+    color:#919191;
+    font-size: 12px;
+    padding-top:4px;
+    padding-bottom:4px;
+    line-height: 1.4
+
+}
+
+/* voici la gestion du responsive */
+/* on commence par le menu */
+
+ @media (min-width: 10px) {
+    /* .article{
+        border: solid 2px red;
+        display: flex !important;
+    } */
+    
+   
+  }
+ @media (min-width: 576px) {
+    .created{
+        margin-left: auto;
+        text-align: right ;    
+    }
+    
+  }
+  
+  @media (min-width: 768px) {
+
+    .container{
+        padding-left: 0;
+        padding-right: 0;
+    }
+       .head-first{
+        display: flex;
+        justify-content: space-between;
+    }
+    .head-form{
+
+        display: unset;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-flow: row wrap;
+        flex-flow: row wrap;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+
+    .bg-black-link{
+        text-align: left;
+       
+        }
+    .bg-black-link a:first-child{
+        padding-left: 0;
+    }
+    .head-input{
+        border-radius: 25%;
+        width: 211px;
+    }
+
+    .website-logo{
+        display: flex;
+        justify-content: space-between;
+        text-align: left;
+        margin-top:20px;
+        margin-bottom:20px;
+    }
+    .logo{ 
+        text-align: left;
+    }
+
+
+    .footer{
+        min-height: 65px;
+        padding-top: 30px;
+    }
+  }
+  
+  @media (min-width: 992px) {
+    .article-single{
+        -ms-flex-preferred-size: 0;
+        flex-basis: 0;
+        -ms-flex-positive: 1;
+        flex-grow: 1;
+        max-width: 100%;
+    }
+
+  }
+  
+  @media (min-width:992px) and (max-width:1200px ){
+  
+
+    .intro-text h1{
+        font-size: 4rem;
+    
+    }
+
+   
+
+  }
+  @media (min-width: 1200px) {
+    .intro{
+        margin-top: 50px;
+
+        margin-bottom: 50px;
+    }
+
+    .intro-text{
+        display: flex;
+        /* border:solid 2px red; */
+        height: auto;
+        flex-direction: column;
+        align-self: flex-end;
+        
+    }
+
+    .intro-text h1{
+        font-size: 5rem;
+        line-height: 1;
+        margin-bottom: 12px;
+    
+    }
+
+  }
+   
+
+
+
